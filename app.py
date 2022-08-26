@@ -64,7 +64,7 @@ passengers = st.number_input('how many humans are coming?')
 
 #st.write(data, time)
 
-if st.button('get prediction'):
+if st.button('AlienBalls'):
     params = {
             'pickup_datetime': str(date) + ' ' + str(time),
             'pickup_longitude': pickup_lon,
